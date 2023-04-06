@@ -1,0 +1,11 @@
+.quiz-list {
+  .quiz-img {
+    margin-right: 1.125rem;
+    @media screen and (max-width: 900px) {
+      margin-right: 1rem;
+    }
+  }
+  .quiz-name {
+    text-align: left;
+  }
+}

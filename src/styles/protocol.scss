@@ -1,0 +1,22 @@
+.grid {
+  height: 100vh;
+  margin-top: unset !important;
+  @media screen and (max-width: 600px) {
+    flex-wrap: nowrap !important;
+    flex-direction: column !important;
+  }
+  .detail-grid {
+    border-right: 1px solid #EAEAEA;
+    box-shadow: 2px 2px 2px 1px rgba(172, 172, 172, 0.1);
+    @media screen and (max-width: 600px) {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+  .quiz-grid {
+    @media screen and (max-width: 600px) {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+}

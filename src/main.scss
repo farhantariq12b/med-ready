@@ -1,0 +1,18 @@
+
+// Applying default color to text
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #484A4B;
+}
+
+@import "./styles/classes.scss";
+@import "./styles/protocol.scss";
+@import "./styles/detail-section.scss";
+@import "./styles/quiz-section.scss";
+@import "./styles/question.scss";
+@import "./styles/quiz-list.scss";

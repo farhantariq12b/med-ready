@@ -1,0 +1,30 @@
+.question-container {
+  .question-heading {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .options-list {
+    .option {
+      padding: 1.2em;
+      background-color: #FBFBFC;
+      border-radius: 14px;
+      color: #484A4B;
+    }
+  }
+  .submit-btn-container {
+    display: flex;
+    justify-content: right;
+    .submit-btn {
+      border: none;
+      width: 120px;
+      border-radius: 30px;
+      font-weight: 700;
+      text-transform: none;
+      padding: 0.875em;
+      &:disabled {
+        background-color: #E1E3E6;
+        color: #9C9C9B;
+      }
+    }
+  }
+}

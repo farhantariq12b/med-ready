@@ -1,0 +1,33 @@
+.detail-section {
+  padding: 2em;
+  text-align: center;
+  height: 100%;
+  @media screen and (max-width: 900px) {
+    padding: 1.2em;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 2.5em;
+  }
+  .protocol-img {
+    width: 100%;
+  }
+  .linear-progress {
+    background-color: #F6F6F6;
+    height: 8px;
+    border-radius: 1em;
+  }
+  .back-icon {
+    background-color: #F6F6F6;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  .heading {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: left;
+    @media screen and (max-width: 900px) {
+      font-size: 1rem;
+    }
+  }
+}
